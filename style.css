@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  padding: 30px;
+  background: white;
+}
+/* h1 {
+  margin: auto;
+  color: black;
+  text-transform: uppercase;
+  font-size: 30px;
+} */
+
+#balloon-gallery div {
+  background: red;
+  color: red  ;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  font-size: 40px;
+  border-radius: 50%;
+  margin: 5px;
+  display: inline-block;
+ 
+  cursor: grab;
+}
+
+#balloon-gallery div:nth-child(3n) {
+  background: rgb(248, 100, 124);
+  color: rgb(248, 100, 124);
+}
+
+#balloon-gallery div:nth-child(3n-1) {
+  background: green;
+  color: green;
+}
+
+#balloon-gallery div:nth-child(2n) {
+  background: gold;
+  color: gold;
+}
+
+#balloon-gallery div:nth-child(8n) {
+  background: purple;
+  color: purple;
+}
